@@ -1,0 +1,76 @@
+body {
+  background: rgb(0, 0, 0);
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+#navbarApp,
+#collapsible-nav-dropdown,
+.dropdown-menu,
+.navbar-styles {
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.45);
+  box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.45);
+}
+.navbar-toggler {
+  background-color: rgba(246, 243, 243, 0.762);
+}
+
+#header {
+  height: 346px;
+  width: 100vw;
+  padding-top: 56px;
+  color: white;
+  background: linear-gradient(rgba(34, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+    url(./images/karen-zhao-jLRIsfkWRGo-unsplash.jpg);
+  background-size: cover;
+  background-position: -10px;
+  background-repeat: no-repeat;
+}
+
+.header-container {
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header-container p {
+  font-size: 1.2rem;
+}
+
+.zoomOnHover:hover {
+  transition: 0.3s;
+  transform: scale(1.4);
+  box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.425);
+  position: relative;
+  z-index: 1;
+}
+
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.562);
+  text-align: justify;
+}
+
+iframe {
+  width: 100%;
+}
+
+.video-stream {
+  object-fit: cover;
+}
+
+.relative-to-navbar {
+  position: relative;
+  top: 100px;
+}
+
+.movie-content img {
+  width: 250px;
+}
